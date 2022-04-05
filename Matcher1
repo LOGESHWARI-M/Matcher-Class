@@ -1,0 +1,6 @@
+import java.util.regex.*;
+class KKrtr{
+public static void main(String []args){
+System.out.println(Pattern.matches("\\D*[A-Z]*\\s*{6,20}","Priya"));
+}
+}
