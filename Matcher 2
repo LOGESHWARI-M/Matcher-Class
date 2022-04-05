@@ -1,0 +1,11 @@
+import java.util.regex.*;
+class Patt{
+public static void main(String []args){
+System.out.println[^a-z\];
+Pattern pat = Pattern.compile("abb");
+Matcher ma = pat.matcher("abb.abb.cabb");
+while(ma.find()){
+System.out.println(ma.groupcount());
+}
+}
+ }
